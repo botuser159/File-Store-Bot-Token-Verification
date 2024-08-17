@@ -411,7 +411,7 @@ async def bought(client, message):
             )
         )
         await msg.edit_text('<b>Your screenshot has been sent to Admins</b>')
-            )
+        
 
 @Client.on_message(filters.private & filters.command('restart') & filters.user(ADMINS))
 async def restart(client, message):
